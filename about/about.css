@@ -78,3 +78,32 @@
       margin-top: 7rem;
     }
   }
+  .carousel-item{
+    
+    
+    background-position: center;
+    
+    
+  }
+  /*.col-lg-4{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }*/
+  .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
