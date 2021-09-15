@@ -41,3 +41,14 @@
     display: flex;
     flex-wrap: wrap;
 }
+ul {
+    list-style: none;
+}
+.card shadow-sm{
+    height: 200;
+    width: 150;
+}
+.col .card shadow-sm{
+    height: 800;
+    width: 500;
+}
