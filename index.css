@@ -43,3 +43,42 @@ body {
 .two {
     color: tan;
 }
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item>img {
+    min-width: 100%;
+    height: 100vh;
+    background: fixed !important;
+}
+
+#wall {
+    border: 2px solid white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+
+#wall:hover {
+    border: 2px solid white;
+    background: rgba(90, 224, 85, 0.219);
+}
+
+#second {
+    padding-bottom: 50px !important;
+}
+
+#aboutbtn {
+    border: 2px solid white;
+}
+
+#aboutbtn:hover {
+    background: rgba(221, 188, 96, 0.404);
+}
