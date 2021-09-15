@@ -24,3 +24,11 @@ body{
     padding: 4rem 1rem 4rem 1rem;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5) ;
 }
+.signin-text{
+    font-style: normal;
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 600 !important;
+    color: papayawhip;
+    text-align: center;
+}
