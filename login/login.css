@@ -13,3 +13,6 @@ body{
     background-repeat: inherit;
     
 }
+#outer{
+    padding-top: 65px;
+}
