@@ -63,3 +63,12 @@ body{
 .btn-class:hover{
     background-color: lightcyan;
 }
+.form-group{
+    color: pink;
+    font-family: sans-serif;
+
+}
+.form-group.form-check{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
