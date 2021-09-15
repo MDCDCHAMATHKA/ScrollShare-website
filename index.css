@@ -21,3 +21,8 @@ body {
 .signup:hover {
     color: white;
 }
+
+.carousel {
+    margin-bottom: 4rem;
+    text-shadow: black !important;
+}
