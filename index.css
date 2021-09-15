@@ -26,3 +26,12 @@ body {
     margin-bottom: 4rem;
     text-shadow: black !important;
 }
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item h1 {
+    font-weight: 600;
+}
