@@ -35,3 +35,11 @@ body {
 .carousel-item h1 {
     font-weight: 600;
 }
+
+.one {
+    color: rgb(110, 226, 57);
+}
+
+.two {
+    color: tan;
+}
