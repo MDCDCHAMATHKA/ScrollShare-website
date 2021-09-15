@@ -14,3 +14,11 @@ body {
 #navlogo {
     height: 30px;
 }
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
