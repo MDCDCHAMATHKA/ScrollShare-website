@@ -185,4 +185,37 @@
                 color: #ffffff;
                 transition: all 0.5s ease;
             }
+            .footer-col .social-links a:hover {
+                color: #24262b;
+                background-color: #ffffff;
+            }
+            
+            .flogo {
+                padding-bottom: 20px;
+            }
+            
+            .about {
+                width: 40%;
+            }
+            
+            .about p {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+            }
+            
+            .info ul li {
+                font-size: 16px;
+                text-transform: capitalize;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
             
