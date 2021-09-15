@@ -56,3 +56,10 @@ body{
     outline: 0;
     box-shadow: none;
 }
+.btn-class{
+    border-color: skyblue;
+    color: skyblue;
+}
+.btn-class:hover{
+    background-color: lightcyan;
+}
