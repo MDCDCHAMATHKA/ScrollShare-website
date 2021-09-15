@@ -72,3 +72,18 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*navigation bar*/
+#navlogo {
+    height: 25px;
+    background-color: transparent;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+}
+
+.signup:hover {
+    color: white;
+}
