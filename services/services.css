@@ -4,7 +4,7 @@
             
             body {
                 color: #5a5a5a;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(bookes.jpg);
+                background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("img/bookes.jpg");
                 height: 100vh;
                 width: 100%;
                 background-size: cover;
