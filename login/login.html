@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Form's CSS and other links-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    
+    <!--Footer meta and CSS links-->
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+     
+    <title></title>
+</head>
+<body>
+    
+    <!--Navigation bar-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logo.png" class="img-fluid" id="navlogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+    
+                    </ul>
+    
+                    <button class="btn btn-outline-success" type="button"><a href="" class="signup">Join</a></button>
+    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Body of the login form-->
+    <div class="container-fluid" id="outer">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="logo2.png" class="img-fluid" alt="Logo">
+            </div>
+            <div class="col-md-6">
+                <h3 class="signin-text mb-3">Sign In</h3>
+                <form name="loginform" action="Validation.php" onsubmit="validate()">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required minlength="4">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="passwrd" name="password" class="form-control" required minlength="8">
+                    </div>
+                    <button class="btn btn-class">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer -->
+
+    <footer class="footer">
+        <div class="f">
+            <div class="row">
+                <div class="footer-col about">
+                    <h4>About Us</h4>
+                    <p>ScrollShare is enthusiastic in delivering books free to students in Sri Lanka. Our objective is to promote reading. Our responsibility is get the books from the donors to the readers. We reassure you. Remember to join with us without
+                        any hesitation.</p>
+
+                </div>
+                <div class="footer-col">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Registration</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col cinfo">
+                    <h4>Contact Info</h4>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> 161/9A, Galle Road,<br>Colombo,<br>Srilanka
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></i></span> 011-2548567
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span> scrollshare@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p> Copyright &copy; 2021 ScrollShare. All Rights Reserved.</p>
+    </div>
+    
+    
+
+    <!--Login page Javascript-->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
