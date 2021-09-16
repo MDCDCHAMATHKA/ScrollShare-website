@@ -160,7 +160,14 @@
 </div>
 
 <script>
-    
+    var psw=document.getElementById('passwrd').value;
+    var conpass=document.form1.cpwrd.value;
+
+    if(psw!=conpass)
+    {
+        alert("password is not match");
+        return false;
+    }
 </script>
 
 <script src="js/jquery-3.3.1.min.js"></script>
