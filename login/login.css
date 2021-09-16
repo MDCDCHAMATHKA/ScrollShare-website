@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
-
-body{
+body {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(loginpagebg2.jpg);
@@ -11,20 +10,20 @@ body{
     font-family: sans-serif;
     background-attachment: fixed;
     background-repeat: inherit;
-    
 }
-#outer{
+
+#outer {
     padding-top: 65px;
 }
 
-
-.content{
+.content {
     margin: 8%;
     background-color: transparent;
     padding: 4rem 1rem 4rem 1rem;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5) ;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-.signin-text{
+
+.signin-text {
     font-style: normal;
     font-family: 'Poppins';
     font-size: 45px;
@@ -32,7 +31,8 @@ body{
     color: papayawhip;
     text-align: center;
 }
-.form-control{
+
+.form-control {
     display: block;
     width: 100%;
     font-size: 1rem;
@@ -49,34 +49,43 @@ body{
     background-color: transparent;
     background-clip: padding-box;
 }
-.form-control:focus{
+
+.form-control:focus {
     color: palegoldenrod;
     background-color: transparent;
     border-color: white;
     outline: 0;
     box-shadow: none;
 }
-.btn-class{
+
+.btn-class {
     border-color: skyblue;
     color: skyblue;
 }
-.btn-class:hover{
+
+.btn-class:hover {
     background-color: lightcyan;
 }
-.form-group{
+
+.form-group {
     color: pink;
     font-family: sans-serif;
-
 }
-.form-group.form-check{
+
+.form-group.form-check {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+
 /*navigation bar*/
+
+.navbar {
+    background: rgba(0, 0, 0, 0.795) !important;
+}
+
 #navlogo {
-    height: 25px;
-    background-color: transparent;
+    height: 30px;
 }
 
 .signup {
@@ -89,9 +98,9 @@ body{
 }
 
 
-
 /*Footer*/
-.f{
+
+.f {
     font-family: sans-serif;
     max-width: 1165px;
     margin: auto;
