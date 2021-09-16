@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -12,327 +13,331 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<style>
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="inventory/Inventory.css" rel="stylesheet">
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-</style>
-<link href="inventory.css" rel="stylesheet">
 
-    
-  </head>
-  <body>
-    
+</head>
+
+<body>
+
     <header>
-    <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="logo.png" class="img-fluid" id="navlogo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <!-- Navigation Bar-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" id="navlogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-        <li class="nav-item">
-            <a class="nav-link" href="registration.html">Registration</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact US.html">Contact Us</a>
+                        </li>
 
-    </ul>
+                    </ul>
 
-    <button class="btn btn-outline-success" type="button"><a href="registration.html" class="signup">Join</a></button>
+                    <button class="btn btn-outline-success" type="button"><a href="" class="signup">Join</a></button>
 
-</div>
-</div>
-</nav>
-<!-- End Navigation Bar-->
-</header>
-<main>
-
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <p><br></p>
-          <h1 class="fw-light">Inventory</h1>
-          
-          <p class="lead text-muted">Browse through our extensive library of books and discover what you want.</p>
-          
-          <p>
-            <a href="register.html" class="btn btn-primary my-2">Register Now</a>
-            <a href="contactus.html" class="btn btn-secondary my-2">Contact Us</a>
-          </p>
-        </div>
-      </div>
-    </section>
-    <div class="album py-5 bg-light">
-        <div class="container">
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="history.jpg" class='img-fluid'>
-                
-    
-                <div class="card-body">
-                  <p class="card-text">History Text Book - Grade 09 - Sinhala medium </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                      
-                    </div>
-                    
-                  </div>
                 </div>
-              </div>
             </div>
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img src="book1-remastered.png" class='img-fluid' >
-      
-                  <div class="card-body">
-                    <p class="card-text">Percy Jackson and The Titans Curse</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
+        </nav>
+        <!-- End Navigation Bar-->
+    </header>
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <p><br></p>
+                    <h1 class="fw-light">Inventory</h1>
+
+                    <p class="lead text-muted">Browse through our extensive library of books and discover what you want.</p>
+
+                    <p>
+                        <a href="register.html" class="btn btn-primary my-2">Register Now</a>
+                        <a href="contact US.html" class="btn btn-secondary my-2">Contact Us</a>
+                    </p>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                    <img src="madol-duwa.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Madol Duwa Novel</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                    <img src="mystery_book.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">The Mystery of The Battered Cod</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="geography.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Cambridge O Level Geography Coursework book</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="book2-remastered.png" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Percy Jackson and the Lightning Theif</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="book3-remastered.png" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Percy Jackson and the Sea of Monsters</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="anton_checkov_novel.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Anton Chekov Novel </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="chemistry.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Grade 10 Chemistry book</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="island of blue dolphins.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Island Of The Blue Dolphins story book</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="book4-remastered.png" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Percy Jackson and the Titan's Curse</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <img src="rajavaliya.jpg" class='img-fluid'>
-      
-                  <div class="card-body">
-                    <p class="card-text">Rajavaliya historic book</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
-                        
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/history.jpg" class='img-fluid'>
+
+
+                            <div class="card-body">
+                                <p class="card-text">History Text Book - Grade 09 - Sinhala medium </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/book1-remastered.png" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Percy Jackson and The Titans Curse</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/madol-duwa.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Madol Duwa Novel</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/mystery_book.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">The Mystery of The Battered Cod</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/geography.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Cambridge O Level Geography Coursework book</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/book2-remastered.png" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Percy Jackson and the Lightning Theif</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/book3-remastered.png" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Percy Jackson and the Sea of Monsters</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/anton_checkov_novel.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Anton Chekov Novel </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/chemistry.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Grade 10 Chemistry book</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/island of blue dolphins.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Island Of The Blue Dolphins story book</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/book4-remastered.png" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Percy Jackson and the Titan's Curse</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="inventory/img/rajavaliya.jpg" class='img-fluid'>
+
+                            <div class="card-body">
+                                <p class="card-text">Rajavaliya historic book</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Check Availability</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
 
     <footer class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="footer-col about">
-                  <h4>About Us</h4>
-                  <p>ScrollShare is enthusiastic in delivering books free to students in Sri Lanka. Our objective is to promote reading. Our responsibility is get the books from the donors to the readers. We reassure you. Remember to join with us without
-                      any hesitation.</p>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col about">
+                    <h4>About Us</h4>
+                    <p>ScrollShare is enthusiastic in delivering books free to students in Sri Lanka. Our objective is to promote reading. Our responsibility is get the books from the donors to the readers. We reassure you. Remember to join with us without
+                        any hesitation.</p>
 
-              </div>
-          <div class="footer-col">
-              <h4>quick links</h4>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="registration.html">Registration</a></li>
+                </div>
+                <div class="footer-col">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="registration.html">Registration</a></li>
 
-              </ul>
-          </div>
-          <div class="footer-col cinfo">
-            <h4>Contact Info</h4>
-            <ul class="info">
-                <li>
-                    <span><i class="fa fa-phone" aria-hidden="true"></i></span> 161/9A, Galle Road,<br>Colombo,<br>Srilanka
-                </li>
-                <li>
-                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></i></span> 011-2548567
-                </li>
-                <li>
-                    <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span> scrollshare@gmail.com
-                </li>
-            </ul>
+                    </ul>
+                </div>
+                <div class="footer-col cinfo">
+                    <h4>Contact Info</h4>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span> 161/9A, Galle Road,<br>Colombo,<br>Srilanka
+                        </li>
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></i></span> 011-2548567
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span> scrollshare@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
-
+    </footer>
+    <div class="copyright">
+        <p> Copyright &copy; 2021 ScrollShare. All Rights Reserved.</p>
     </div>
-</div>
-</footer>
-<div class="copyright">
-    <p> Copyright &copy; 2021 ScrollShare. All Rights Reserved.</p>
-  </div>
-  
-  
-      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  
-        
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  </html>
-    
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</html>
