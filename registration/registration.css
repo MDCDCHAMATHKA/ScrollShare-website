@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
-
-body{
+body {
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(book-wallpaper-4k.jpg);
@@ -8,22 +7,25 @@ body{
     background-size: cover;
     overflow-x: hidden;
     position: relative;
-    font-family: sans-serif;
     background-attachment: fixed;
     background-repeat: inherit;
 }
-#outer{
+
+#outer {
     padding-top: 65px;
 }
 
+
 /*Registration form*/
-.content{
+
+.content {
     margin: 8%;
     background-color: transparent;
     padding: 4rem 1rem 4rem 1rem;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5) ;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-.signin-text{
+
+.signin-text {
     font-style: normal;
     font-family: 'Poppins';
     font-size: 45px;
@@ -31,7 +33,8 @@ body{
     color: papayawhip;
     text-align: center;
 }
-.form-control{
+
+.form-control {
     display: block;
     width: 100%;
     font-size: 1rem;
@@ -48,35 +51,37 @@ body{
     background-color: transparent;
     background-clip: padding-box;
 }
-.form-control:focus{
+
+.form-control:focus {
     color: palegoldenrod;
     background-color: transparent;
     border-color: white;
     outline: 0;
     box-shadow: none;
 }
-.btn-class{
+
+.btn-class {
     border-color: rgb(227, 255, 229);
     color: rgb(182, 255, 182);
 }
 
-.btn-class:hover{
+.btn-class:hover {
     background-color: rgb(224, 255, 233);
 }
 
-.form-group{
+.form-group {
     color: rgb(204, 219, 70);
     font-family: sans-serif;
-
 }
 
-.form-group.form-check{
+.form-group.form-check {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 
 /**Navigation bar CSS*/
+
 .navbar {
     background: rgba(0, 0, 0, 0.795) !important;
 }
@@ -95,8 +100,8 @@ body{
 }
 
 
-
 /*navigation bar*/
+
 #navlogo {
     height: 25px;
     background-color: transparent;
@@ -113,7 +118,8 @@ body{
 
 
 /*Footer CSS*/
-.f{
+
+.f {
     font-family: sans-serif;
     max-width: 1165px;
     margin: auto;
@@ -247,6 +253,7 @@ ul {
     text-align: center;
     color: #999;
 }
+
 
 /*responsive*/
 
