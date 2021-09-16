@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>ScrollShare ~ The book sharing platform.</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="about/about.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Navigation Bar-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="about/img/logo.png" class="img-fluid" id="navlogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-outline-success" type="button"><a href="" class="signup">Join</a></button>
+
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation Bar-->
+    </header>
+
+    <main>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+
+
+
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="about/img/neon_scrollshare-01.png" class="img-fluid" alt="...">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                    <div class="container">
+
+                        <div class="carousel-caption text-start">
+
+
+                            <h1>ScrollShare.</h1>
+                            <p>The online book sharing platform.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Register today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="about/img/red neon.jpg" class="img-fluid" alt="...">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+
+                            <h1>About Us.</h1>
+                            <p>We believe that every child deserves a chance to learn.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Register today</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="about/img/green neon.jpg" class="img-fluid" alt="...">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+
+                            <h1>“Live as if you were to die tomorrow. Learn as if you were to live forever.” ― Mahatma Gandhi.</h1>
+                            <p>Change the world for the better, one step at a time.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Register today</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+            <h1>Our Team</h1>
+            <h1><br></h1>
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="about/img/mineth_circle_about.png" class="img-fluid" alt="..." height="200" width="200">
+
+
+                    <h2>Mineth</h2>
+                    <p>Junior Developer.</p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="about/img/loji_circle_about.png" class="img-fluid" alt="..." height="200" width="200">
+
+                    <h2>Lojini</h2>
+                    <p>Junior Developer.</p>
+
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="about/img/chamath_circle_about.png" class="img-fluid" alt="..." height="200" width="200">
+
+                    <h2>Chamath</h2>
+                    <p>Junior Developer.</p>
+
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="about/img/chamathka_circle_about.png" class="img-fluid" alt="..." height="200" width="200">
+
+                    <h2>Chamathka</h2>
+                    <p>Junior Developer.</p>
+
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="about/img/neranjan_circle_about.png" class="img-fluid" alt="..." height="200" width="200">
+
+                    <h2>Neranjan</h2>
+                    <p>Junior Developer.</p>
+
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Underpowered. <span class="text-muted"> Lacking.</span></h2>
+                    <p><br></p>
+                    <p class="lead">Sri Lanka being in the category of developing countries, does not have the required structure and resources in order to have a high and consistent teaching standard. In various parts of Sri Lanka, the lack of access to the required
+                        educational facilities has kept the people in a cycle of poverty, not enabling them to break the mold and better their standards of living.</p>
+                </div>
+                <div class="col-md-5">
+                    <p><br><br><br></p>
+                    <img src="about/img/pexels-mike-sangma-3920704.jpg" class="img-fluid" alt="...">
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <p><br></p>
+                    <h2 class="featurette-heading">19th Century problems. <span class="text-muted">Remastered.</span></h2>
+                    <p><br></p>
+                    <p class="lead">We have found out that the primary obstacle children face in carrying out with their education is the lack of educational materials, and the lack of economic stability in order to meet with the current technological demands of the
+                        modern world. Sri Lanka boasts of having a literacy rate of above 90%, but statistics show that over 300,000 children drop out of school every year before A/L’s as a result of the above-mentioned problems.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <p><br><br><br><br><br></p>
+                    <img src="about/img/streetphoto.jpg" class="img-fluid" alt="..." class="feaurette-image img-fluid mx-auto">
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Simple solution, <span class="text-muted">yet unexpected.</span></h2>
+                    <p><br></p>
+                    <p class="lead">The average student throws away close to 100 books, after their school educational journey has come to a close. All these books are valuable to another student who is currently learning in school or otherwise. However, all these valuable
+                        books go to waste and the government has to keep on printing new books for the younger generations, exhausting the limited resources our country possesses.<br> However, there is a majority of children who are willing to give the
+                        textbooks and other means of study materials away after they are done with using them. In our hopes to further advocate this idea, we have come up with the solution of building a platform where all the students who are willing
+                        to donate, and the students who are seeking the help, to come together in order to share resources amongst each other.</p>
+                </div>
+                <div class="col-md-5">
+                    <p><br><br><br><br><br><br><br><br><br><br></br>
+                    </p>
+                    <img src="about/img/pexels-agung-pandit-wiguna-3401403.jpg" class="img-fluid" alt="..." class="feaurette-image img-fluid mx-auto">
+
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+        <!-- /.container -->
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col about">
+                        <h4>About Us</h4>
+                        <p>ScrollShare is enthusiastic in delivering books free to students in Sri Lanka. Our objective is to promote reading. Our responsibility is get the books from the donors to the readers. We reassure you. Remember to join with us without
+                            any hesitation.</p>
+
+                    </div>
+                    <div class="footer-col">
+                        <h4>quick links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="register.html">Registration</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col cinfo">
+                        <h4>Contact Info</h4>
+                        <ul class="info">
+                            <li>
+                                <span><i class="fa fa-phone" aria-hidden="true"></i></span> 161/9A, Galle Road,<br>Colombo,<br>Srilanka
+                            </li>
+                            <li>
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></i></span> 011-2548567
+                            </li>
+                            <li>
+                                <span><i class="fa fa-envelope" aria-hidden="true"></i></i></span> scrollshare@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p> Copyright &copy; 2021 ScrollShare. All Rights Reserved.</p>
+        </div>
+    </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</html>
