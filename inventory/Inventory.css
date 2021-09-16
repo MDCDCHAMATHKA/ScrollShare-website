@@ -1,18 +1,18 @@
 #navlogo {
     height: 30px;
-    
 }
 
-.signup {
+.logout {
     text-decoration: none;
     color: white;
 }
 
-.signup:hover {
+.logout:hover {
     color: white;
 }
-.navbar{
-    background: rgba(0,0,0,0.795) !important;
+
+.navbar {
+    background: rgba(0, 0, 0, 0.795) !important;
 }
 
 .bd-placeholder-img {
@@ -21,18 +21,20 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
-  }
-  .card shadow-sm{
-      height: 50px;
-      width: 50px;
-  }
-  .container {
+}
+
+.card shadow-sm {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
     max-width: 1170px;
     margin: auto;
 }
@@ -41,17 +43,21 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 ul {
     list-style: none;
 }
-.card shadow-sm{
+
+.card shadow-sm {
     height: 200;
     width: 150;
 }
-.col .card shadow-sm{
+
+.col .card shadow-sm {
     height: 800;
     width: 500;
 }
+
 .footer {
     background-color: #24262b;
     padding: 70px 0;
@@ -61,6 +67,7 @@ ul {
     width: 25%;
     padding: 0 15px;
 }
+
 .footer-col h4 {
     font-size: 18px;
     font-weight: 400;
@@ -81,6 +88,7 @@ ul {
     box-sizing: border-box;
     width: 50px;
 }
+
 .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -100,6 +108,7 @@ ul {
     color: #ffffff;
     padding-left: 8px;
 }
+
 .footer-col .social-links a {
     display: inline-block;
     height: 40px;
@@ -117,9 +126,11 @@ ul {
     color: #24262b;
     background-color: #ffffff;
 }
+
 .flogo {
     padding-bottom: 20px;
 }
+
 .about {
     width: 40%;
 }
@@ -133,6 +144,7 @@ ul {
     color: #bbbbbb;
     display: block;
 }
+
 .info ul li {
     font-size: 16px;
     text-transform: capitalize;
@@ -148,6 +160,7 @@ ul {
     color: #ffffff;
     padding-left: 8px;
 }
+
 .cinfo {
     color: #999;
 }
@@ -162,6 +175,8 @@ ul {
     text-align: center;
     color: #999;
 }
+
+
 /*responsive*/
 
 @media(max-width: 767px) {
